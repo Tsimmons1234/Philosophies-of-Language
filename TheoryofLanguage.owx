@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/wilwa/ontologies/2024/9/untitled-ontology-127"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/wilwa/ontologies/2024/9/untitled-ontology-127">
+    <Prefix name="" IRI="http://www.semanticweb.org/wilwa/ontologies/2024/9/untitled-ontology-127/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.ifomis.org/bfo/1.1</Import>
+    <Declaration>
+        <Class IRI="#Causal_Theory_of_Reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direct_Reference_Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mediated_Reference_Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millianism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sense_Theory_of_Reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theory_of_Language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Causal_Theory_of_Reference"/>
+        <Class IRI="#Direct_Reference_Theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direct_Reference_Theory"/>
+        <Class IRI="#Theory_of_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mediated_Reference_Theory"/>
+        <Class IRI="#Theory_of_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millianism"/>
+        <Class IRI="#Direct_Reference_Theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sense_Theory_of_Reference"/>
+        <Class IRI="#Mediated_Reference_Theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theory"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theory_of_Language"/>
+        <Class IRI="#Theory"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Causal_Theory_of_Reference"/>
+        <Class IRI="#Millianism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Direct_Reference_Theory"/>
+        <Class IRI="#Mediated_Reference_Theory"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal xml:lang="en">Definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Causal_Theory_of_Reference</IRI>
+        <Literal xml:lang="en">Causal Theory of Reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Direct_Reference_Theory</IRI>
+        <Literal xml:lang="en">Direct Reference Theory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mediated_Reference_Theory</IRI>
+        <Literal xml:lang="en">Mediated Reference Theory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Millianism</IRI>
+        <Literal xml:lang="en">Millianism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sense_Theory_of_Reference</IRI>
+        <Literal xml:lang="en">Sense Theory of Reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Theory</IRI>
+        <Literal xml:lang="en">A set of codependent propositions describing a specific aspect of reality as being a certain way.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Theory</IRI>
+        <Literal xml:lang="en">Theory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Theory_of_Language</IRI>
+        <Literal xml:lang="en">A theory describing the function, use, or metaphysical status of language and/or its component parts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Theory_of_Language</IRI>
+        <Literal xml:lang="en">Theory of Language</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
